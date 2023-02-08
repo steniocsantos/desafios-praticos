@@ -1,0 +1,14 @@
+#tabuleiro {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+}
+
+.casa {
+    width: calc(100% / 8 - 2px);
+    height: calc(100% / 8 - 2px);
+    border: 1px solid black;
+}
