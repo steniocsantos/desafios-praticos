@@ -12,3 +12,7 @@
     height: calc(100% / 8 - 2px);
     border: 1px solid black;
 }
+
+.casa .corAtual {
+    background-color: blue;
+}
