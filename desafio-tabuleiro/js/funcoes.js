@@ -7,18 +7,16 @@ function criaCasa() {
     for (let index = 1; index <= 64; index++) {
         casas += `<div class="casa" ${cor}>${index}</div>`;
 
-        cor = alteraCor (cor);
+        console.log(cor);
 
-        if (index % 8 == 0) {
-            cor = alteraCor (cor);
+        if (cor % 8 == 0) {
+            cor = corAtual(outraCor );
         }
     }
 
     conteudo.innerHTML = casas;
 }
 
-function alteraCor(corAtual) {
-    return corAtual == "branca" ? "" : "branca";
-}
+
 
 criaCasa ();
