@@ -10,7 +10,7 @@ window.onload = function () {
     let botaoParar = document.getElementById('botao-parar');
     let botaoZerar = document.getElementById('botao-zerar');
 
-    var Interval;
+    let Interval;
 
     botaoIniciar.onclick = function () {
         clearInterval (Interval);

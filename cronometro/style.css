@@ -7,9 +7,9 @@ body {
 }
 
 #cronometro {
-    position: absolute;
     width: 800px;
-    margin: 30px;
+    margin: auto;
+    margin-top: 10%;
     color: black;
     text-align: center;
     
